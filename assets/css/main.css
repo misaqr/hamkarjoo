@@ -1,0 +1,30 @@
+/* BS4.3 New Edition */
+
+
+/* select2 */
+
+.select2-container{
+    width: 100%!important;
+  }
+  .select2-container .select2-selection--single {
+    height: 40px!important;
+  }
+  .select2-container[dir="rtl"] .select2-selection--single .select2-selection__rendered{
+    padding-top: 4px; 
+  }
+  .select2-selection__arrow{
+    margin-top: 5px;
+  }
+  .select2-container--default .select2-selection--single {
+    border: 1px solid #ced4da!important;
+  }
+  .select2-container--default .select2-selection--multiple {
+    border: 1px solid #ced4da!important;
+  }
+
+  /* Footer */
+
+  footer ul{
+    padding-right: 10px!important;
+  }
+ 

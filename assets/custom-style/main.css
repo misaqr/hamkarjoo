@@ -1,0 +1,44 @@
+/* BS4.3 New Edition */
+
+/* font-face */
+
+@font-face {
+  font-family: 'shabnam';
+  src: url('../font/Shabnam-Light.woff2') format('woff2'),
+         url('../font/Shabnam-Light.woff') format('woff'),
+         url('../font/Shabnam-Light.ttf') format('truetype');
+}
+
+*, h1, h2, h3, h4, h5, h6, p, div, span, a, input, select, button, textarea {
+  font-family: shabnam, arial, "Sans-Serif", Serif, Sans;
+  -webkit-transition: 0.2s; /* Safari */
+  transition: 0.2s;
+}
+
+
+/* select2 */
+
+.select2-container{
+    width: 100%!important;
+  }
+  .select2-container .select2-selection--single {
+    height: 40px!important;
+  }
+  .select2-container[dir="rtl"] .select2-selection--single .select2-selection__rendered{
+    padding-top: 4px; 
+  }
+  .select2-selection__arrow{
+    margin-top: 5px;
+  }
+  .select2-container--default .select2-selection--single {
+    border: 1px solid #ced4da!important;
+  }
+  .select2-container--default .select2-selection--multiple {
+    border: 1px solid #ced4da!important;
+  }
+
+  /* Footer */
+
+  footer ul{
+    padding-right: 10px!important;
+  }
